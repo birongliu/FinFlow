@@ -27,12 +27,12 @@ An app that enable users to see how their finance every month flow by providing 
 - User can view individual receipts in a nice format
 - User can view the spending diagram
 - User can upload receipts mannually
-- User can change theme
-- User can add profile picture
 
 **Optional Nice-to-have Stories**
 - User can filter by categories. ie: restaurants, travel 
 - User can connect with others ie: friends, family to view each other spending habbits. (and allow to split the bill)
+- User can change theme
+- User can add profile picture
 
 ### 2. Screen Archetypes
 **Login Screen**
