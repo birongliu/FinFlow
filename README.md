@@ -27,7 +27,53 @@ An app that enable users to see how their finance every month flow by providing 
 - User can view individual receipts in a nice format
 - User can view the spending diagram
 - User can upload receipts mannually
+- User can change theme
+- User can add profile picture
 
 **Optional Nice-to-have Stories**
 - User can filter by categories. ie: restaurants, travel 
-- User can connect with others ie: friends, family to view each other spending habbits.
+- User can connect with others ie: friends, family to view each other spending habbits. (and allow to split the bill)
+
+### 2. Screen Archetypes
+**Login Screen**
+ - User can Login with third party Oauth2
+
+**Stream**
+ - User can view the spending diagram
+
+**Creation**
+ - User can upload receipts mannually or camera
+
+**Search** 
+ - User can filter by categories. ie: restaurants, travel 
+
+ **Detail**
+  - User can view individual receipts in a nice format
+
+**Settings**
+- User can change theme
+- User can add profile picture
+
+
+### 3. Naviagation
+**Tab Navigation (Tab to Screen)**
+- Home Feed: Provides a visual representation of the receipts.
+- Search Receipts: Allows users to search for specific receipts. This feature can also include information about who is involved in a receipt for bill splitting purposes.
+- Profile: Displays user's profile information and settings.
+
+**Flow Navigation (Screen to Screen)**
+
+- **Login Screen**
+  - => Home Page
+
+- **Stream Screen**
+  - => Navigate to individual receipts
+
+- **Creation Screen**
+  - => Home 
+
+- **Search Screen**
+  - => None
+
+- **Settings Screen**
+  - => Profile Screen
