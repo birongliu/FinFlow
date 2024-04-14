@@ -33,6 +33,7 @@ An app that enable users to see how their finance every month flow by providing 
 - User can connect with others ie: friends, family to view each other spending habbits. (and allow to split the bill)
 - User can change theme
 - User can add profile picture
+- User can logout
 
 ### 2. Screen Archetypes
 **Login Screen**
@@ -49,11 +50,6 @@ An app that enable users to see how their finance every month flow by providing 
 
  **Detail**
   - User can view individual receipts in a nice format
-
-**Settings**
-- User can change theme
-- User can add profile picture
-
 
 ### 3. Naviagation
 **Tab Navigation (Tab to Screen)**
@@ -74,6 +70,3 @@ An app that enable users to see how their finance every month flow by providing 
 
 - **Search Screen**
   - => None
-
-- **Settings Screen**
-  - => Profile Screen
