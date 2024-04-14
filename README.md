@@ -3,6 +3,7 @@
 ## Table of Contents
 
 1. [Overview](#Overview)
+2. [Product Spec](#product-spec)
 
 ## Overview
 
@@ -17,4 +18,16 @@ An app that enable users to see how their finance every month flow by providing 
  - **Habit:** The FinFlow App is designed to be used regularly. Users would be encouraged to input their receipts as they receive them, leading to frequent use. The app is not just for consumption; users also create content by inputting their financial data and setting budgeting goals.
  - **Scope:** The first version of the app would introduce the basic functionality of inputting receipts and visualizing financial flow. Later versions could introduce more advanced features, such as budgeting tools, savings goals, and integration with bank accounts for real-time financial tracking.
  
-[Coming Soon]
+## Product Spec
+
+### 1. User Stories (Required and Optional)
+
+**Required Must-have Stories**
+- User can login
+- User can view individual receipts in a nice format
+- User can view the spending diagram
+- User can upload receipts mannually
+
+**Optional Nice-to-have Stories**
+- User can filter by categories. ie: restaurants, travel 
+- User can connect with others ie: friends, family to view each other spending habbits.
