@@ -79,11 +79,8 @@ An app that enable users to see how their finance every month flow by providing 
 <img src="./assets/interactive_Prototype.gif" width=200>
 
 ## Sprints
-[ ] Design and implement the Home Screen Layout
-
-[ ] Desiggn and implement the Receipts creation screen layout
-
-[ ] Persist receipts in local data storage
-
-[ ] Setup Outh2 using apple login
+- [ ] Design and implement the Home Screen Layout
+- [ ] Desiggn and implement the Receipts creation screen layout
+- [ ] Persist receipts in local data storage
+- [ ] Setup Outh2 using apple login
 
