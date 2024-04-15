@@ -5,7 +5,7 @@
 1. [Overview](#Overview)
 2. [Product Spec](#product-spec)
 3. [Wireframe & Interactive Draft Demo](#Wireframe-&-Interactive-Draft-Demo)
-
+4. [Sprints](#sprints)
 ## Overview
 
 ### Description
@@ -77,4 +77,10 @@ An app that enable users to see how their finance every month flow by providing 
   
 <img src="./assets/wireframe.png" width="600" height="500">
 <img src="./assets/interactive_Prototype.gif" width=200>
+
+## Sprints
+[ ] Design and implement the Home Screen Layout
+[ ] Desiggn and implement the Receipts creation screen layout
+[ ] Persist receipts in local data storage
+[ ] Setup Outh2 using apple login
 
