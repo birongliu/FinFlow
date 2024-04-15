@@ -69,11 +69,12 @@ An app that enable users to see how their finance every month flow by providing 
 - **Creation Screen**
   - => Home 
 
-- **Search Screen**
+- **Search Screen**wh
   - => None
 
 
 ## Wireframe & Interactive Draft Demo
   
-<img src="./resource/interactive_Prototype_gif.gif" width=600>`
-  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkP0hKMk9lslNQJMvMuMcpZ%2FIOS-App-Development-Wireframes%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3D4OijzOVjl7vZEewd-1"></iframe>
+<img src="./assets/wireframe.png" width="600" height="500">
+<img src="./assets/interactive_Prototype.gif" width=600>
+
