@@ -4,7 +4,7 @@
 
 1. [Overview](#Overview)
 2. [Product Spec](#product-spec)
-3. [Wireframe & Interactive Draft Demo](#Wireframe-&-Interactive-Demo)
+3. [Wireframe & Interactive Demo](#Wireframe-&-Interactive-Demo)
 4. [Sprints](#sprints)
 5. [Bug encountered in the project](#Bug-encountered-in-the-project)
 ## Overview
