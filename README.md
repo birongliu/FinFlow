@@ -6,7 +6,7 @@
 2. [Product Spec](#product-spec)
 3. [Wireframe & Interactive Draft Demo](#Wireframe-&-Interactive-Draft-Demo)
 4. [Sprints](#sprints)
-5. (Bug encountered in the project)[#Bug-encountered-in-the-project]
+5. [Bug encountered in the project](#Bug-encountered-in-the-project)
 ## Overview
 
 ### Description
