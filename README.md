@@ -4,7 +4,7 @@
 
 1. [Overview](#Overview)
 2. [Product Spec](#product-spec)
-3. [Wireframe & Interactive Draft Demo](#Wireframe-&-Interactive-Draft-Demo)
+3. [Wireframe & Interactive Draft Demo](#Wireframe-&-Interactive-Demo)
 4. [Sprints](#sprints)
 5. [Bug encountered in the project](#Bug-encountered-in-the-project)
 ## Overview
@@ -74,8 +74,8 @@ An app that enable users to see how their finance every month flow by providing 
   - => None
 
 
-## Wireframe & Interactive Draft Demo
-  
+## Wireframe & Interactive Demo
+ [![CodePath Wordle Submission](https://img.youtube.com/vi/QRjOGSpK1m4/0.jpg)](https://www.youtube.com/watch?v=QRjOGSpK1m4)
 <img src="./assets/wireframe.png" width="600" height="500">
 <img src="./assets/interactive_Prototype.gif" width=200>
 
