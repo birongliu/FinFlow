@@ -6,6 +6,7 @@
 2. [Product Spec](#product-spec)
 3. [Wireframe & Interactive Draft Demo](#Wireframe-&-Interactive-Draft-Demo)
 4. [Sprints](#sprints)
+5. (Bug encountered in the project)[#Bug-encountered-in-the-project]
 ## Overview
 
 ### Description
@@ -80,7 +81,11 @@ An app that enable users to see how their finance every month flow by providing 
 
 ## Sprints
 - [x] Design and implement the Home Screen Layout
-- [x] Desiggn and implement the Receipts creation screen layout (renamed receipts to transactions)
+- [x] Design and implement the Receipts creation screen layout (renamed receipts to transactions)
 - [x] Persist transactions in local data storage
 - [x] Setup Outh2 using discord login
+
+## Bug encountered in the project 
+- visual errors ie in the storyboard
+- data not displaying once updated (settings -> Overview view controller)
 
