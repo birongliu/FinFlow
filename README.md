@@ -69,7 +69,7 @@ An app that enable users to see how their finance every month flow by providing 
 - **Creation Screen**
   - => Home 
 
-- **Search Screen**wh
+- **Search Screen**
   - => None
 
 
@@ -79,8 +79,8 @@ An app that enable users to see how their finance every month flow by providing 
 <img src="./assets/interactive_Prototype.gif" width=200>
 
 ## Sprints
-- [ ] Design and implement the Home Screen Layout
-- [ ] Desiggn and implement the Receipts creation screen layout
-- [ ] Persist receipts in local data storage
-- [ ] Setup Outh2 using apple login
+- [x] Design and implement the Home Screen Layout
+- [x] Desiggn and implement the Receipts creation screen layout (renamed receipts to transactions)
+- [x] Persist transactions in local data storage
+- [x] Setup Outh2 using discord login
 
