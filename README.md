@@ -75,7 +75,8 @@ An app that enable users to see how their finance every month flow by providing 
 
 
 ## Wireframe & Interactive Demo
- [![CodePath Wordle Submission](https://img.youtube.com/vi/QRjOGSpK1m4/0.jpg)](https://www.youtube.com/watch?v=QRjOGSpK1m4)
+ [![MVP](https://img.youtube.com/vi/XGp7SqG_hLA/0.jpg)](https://www.youtube.com/watch?v=XGp7SqG_hLA)
+ [![Almost MVP](https://img.youtube.com/vi/QRjOGSpK1m4/0.jpg)](https://www.youtube.com/watch?v=QRjOGSpK1m4)
 <img src="./assets/wireframe.png" width="600" height="500">
 <img src="./assets/interactive_Prototype.gif" width=200>
 
