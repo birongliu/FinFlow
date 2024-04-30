@@ -6,24 +6,40 @@
 //
 
 import UIKit
+import Nuke
 
 class SettingsViewController: UIViewController {
-
+    @IBOutlet var totalBalanceField: UITextField!
+    @IBOutlet var profileImage: UIImageView!
+    @IBOutlet var username: UILabel!
+    public static var submissionKey = "submissionKey"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        totalBalanceField.keyboardType = .decimalPad;
+        let user = NetworkAuthManager.getProfile();
+        username.text = user?.username;
+        Nuke.loadImage(with: user!.avatarURL, into: profileImage);
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func submissionButton(_ sender: Any) {
+        UserDefaults.standard.set(totalBalanceField.text, forKey: SettingsViewController.submissionKey)
+        presentAlert(title: "Success", message: "Updated the balance")
     }
-    */
-
+    
+    @IBAction func logoutButton(_ sender: UIBarButtonItem) {
+        UserDefaults.standard.removeObject(forKey: NetworkAuthManager.userKey)
+        dismiss(animated: true);
+    }
+    
+    func presentAlert(title: String, message: String) {
+        let alertController = UIAlertController(
+            title: title,
+            message: message,
+            preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default)
+        alertController.addAction(okAction)
+        present(alertController, animated: true)
+    }
+    
 }
