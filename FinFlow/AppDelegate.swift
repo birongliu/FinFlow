@@ -6,14 +6,18 @@
 //
 
 import UIKit
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil);
+        
         // Override point for customization after application launch.
+        if UserDefaults.standard.data(forKey: NetworkAuthManager.userKey) != nil {
+            self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "HomePage");
+        };
+        self.window?.makeKeyAndVisible();
         return true
     }
 
@@ -33,4 +37,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
